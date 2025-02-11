@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 50px;
+    color: rgb(177, 72, 72);
+    text-align: center;
+    margin-top: 40px;
+}
+div{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    padding: 40px 0;
+}
+div label{
+    font-size: 22px;
+    margin: 25px;
+}
+div input{
+    color: gray;
+    margin: 25px;
+    border: 1px solid rgb(211, 208, 208);
+    background-color: rgb(238, 234, 234);
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+button{
+    font-size: 24px;
+    width: 30%;
+    margin: 20px 0;
+    border-radius: 25px;
+    background-color:rgb(177, 72, 72);
+    color: white;
+    padding: 10px 0;
+    border: none;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    transition: 0.8s;
+}
